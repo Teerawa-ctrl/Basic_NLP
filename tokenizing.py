@@ -13,3 +13,7 @@ example_text = " Hello Mr.John , how are you doing to day ? The weather is great
 
 for i in word_tokenize(example_text) :
     print(i)
+    
+    
+for i in sent_tokenize(example_text) :
+    print(i)
